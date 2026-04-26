@@ -64,6 +64,7 @@ src/
     │   │   └── SearchAndCartTest.java      # Full search-to-cart E2E flow
     │   └── utils/
     │       ├── AssertionHelper.java        # Logging wrapper around TestNG Assert
+    │       ├── ScreenshotHelper.java       # Screenshot capture + Allure attachment
     │       └── messages/
     │           ├── AssertionMessages.java  # Assertion log strings
     │           └── TestMessages.java       # Test lifecycle log strings
@@ -157,7 +158,7 @@ All 5 TestNG test methods share a single browser session (`E2EBaseTest`) and are
 
 ## Test Results
 
-Last run — **2026-04-24**, Chrome 147, Hepsiburada live site:
+Last run — **2026-04-26**, Chrome 147, Hepsiburada live site:
 
 | Test | Status | Details |
 |---|---|---|
