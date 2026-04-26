@@ -58,7 +58,6 @@ src/
 └── test/
     ├── java/com/venhancer/
     │   ├── base/
-    │   │   ├── BaseTest.java               # Fresh browser per @Test method
     │   │   └── E2EBaseTest.java            # Shared browser across @Test methods
     │   ├── tests/
     │   │   └── SearchAndCartTest.java      # Full search-to-cart E2E flow
